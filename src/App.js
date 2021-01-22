@@ -1,16 +1,59 @@
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css"
-import "jquery/dist/jquery"
-import "bootstrap/dist/js/bootstrap.bundle.min"
+
+// Bootrstrap
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Cards from './Components/Cards';
+import "bootstrap/dist/css/bootstrap.min.css" 
+import "bootstrap/dist/js/bootstrap.bundle.min"
+import './index.css'; 
+import Header from './Components/Header'
+import Home from './Components/Home'
+import Contact from './Components/Contact'
+import Article from './Components/Article'
+import Footer  from './Components/Footer'
+import Cards from './Components/Cards'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+  
+} from "react-router-dom";
+
+// import "jquery/dist/jquery" import "bootstrap/dist/js/bootstrap.bundle.min" 
+// import { faHome } from "@fortawesome/free-solid-svg-icons"; 
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
+// import Cards from './Components/Cards'
+
+
+
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+       <Router>
+            <Header/>
+
+            <Switch>
+          <Route path="/article">
+            <Article />
+            
+          </Route>
+        
+          <Route path="/contact">
+          <Contact />
+            
+          </Route>
+          <Route path="/">
+            <Home />
+            
+          </Route>
+
+          </Switch>
+      </Router>
+
       <Cards/>
-      </div>
+      <Footer/>
+    </div>
   );
 }
 
