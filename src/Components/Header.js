@@ -1,20 +1,13 @@
-import Home from './Home'
-import Contact from './Contact'
-import Article from './Article'
+
 // Mes image
 import logo from '../img/logo.png'
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function Header() {
     return (
      
-          <Router>
+        
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
           
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,23 +48,8 @@ function Header() {
         
       </div>
   </nav>
-  <Switch>
-    <Route path="/article">
-      <Article />
-      
-    </Route>
   
-    <Route path="/contact">
-    <Contact />
-      
-    </Route>
-    <Route path="/">
-      <Home />
-      
-    </Route>
 
-  </Switch>
-</Router>
 
     );
 }

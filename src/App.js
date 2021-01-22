@@ -3,6 +3,16 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min"
 import './index.css'; 
 import Header from './Components/Header'
+import Home from './Components/Home'
+import Contact from './Components/Contact'
+import Article from './Components/Article'
+import Footer  from './Components/Footer'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+  
+} from "react-router-dom";
 
 // import "jquery/dist/jquery" import "bootstrap/dist/js/bootstrap.bundle.min" 
 // import { faHome } from "@fortawesome/free-solid-svg-icons"; 
@@ -16,11 +26,29 @@ import React from "react";
 function App() {
   return (
     <div>
-      <Header/>
+      <Router>
+        <Header/>
+        <Switch>
+      <Route path="/article">
+        <Article />
+        
+      </Route>
+    
+      <Route path="/contact">
+      <Contact />
+        
+      </Route>
+      <Route path="/">
+        <Home />
+        
+      </Route>
 
-    </div>
-   
+    </Switch>
+      </Router>
   
+      <Footer />
+
+   </div>
   );
 }
 
