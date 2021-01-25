@@ -21,16 +21,16 @@ function Home() {
         {/* Caroussel */}
       <div className="jumbotron text-center">
           {/* Title */}
-          <h4 className="card-title h4 pb-2"><strong>Mon titre</strong></h4>
+          <h1 className="card-title h4 pb-2"><strong>Le SEO comme un pro</strong></h1>
           {/* Card image */}
           <div className="view overlay my-4 pt-5">
           <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg" alt="First slide" />
+            <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(30).jpg" alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg" alt="Second slide" />
+            <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(44).jpg" alt="Second slide" />
           </div>
           <div className="carousel-item">
             <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg" alt="Third slide" />
@@ -49,8 +49,9 @@ function Home() {
               <div className="mask rgba-white-slight" />
             </a>
           </div>
-          <h5 className="indigo-text h5 mb-4">Photography</h5>
-          <p className="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+          <h5 className="indigo-text h5 mb-4">Que est ce que le SEO ?</h5>
+          <p className="card-text">le SEO ou referencement naturel est un ensemble de technique permetant de ranquer plus haut dans les recherches google pour un theme donné.
+           celui ci est déterminé notement par la qualité de la reponse utilisateur.</p>
           
       </div>
           <Cards/>

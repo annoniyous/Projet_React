@@ -14,10 +14,9 @@ function Contact() {
        {/*Section: Contact v.2*/}
        <section className="mb-4">
         {/*Section heading*/}
-        <h2 className="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <h2 className="h1-responsive font-weight-bold text-center my-4">Nous contacter</h2>
         {/*Section description*/}
-        <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-          a matter of hours to help you.</p>
+        <p className="text-center w-responsive mx-auto mb-5">Vous avez besoin d'aide pour le SEO de vottre site ? Vous ne savez pas par quoi commencer ou vous cherchez du coatching pour obtenir votre autonomie ? nous sommes la pour vous !</p>
         <div className="row">
           {/*Grid column*/}
           <div className="col-md-9 mb-md-0 mb-5">
@@ -28,7 +27,7 @@ function Contact() {
                 <div className="col-md-6">
                   <div className="md-form mb-0">
                     <input type="text" id="name" name="name" className="form-control" />
-                    <label htmlFor="name" className>Your name</label>
+                    <label htmlFor="name" className>Nom</label>
                   </div>
                 </div>
                 {/*Grid column*/}
@@ -36,7 +35,7 @@ function Contact() {
                 <div className="col-md-6">
                   <div className="md-form mb-0">
                     <input type="text" id="email" name="email" className="form-control" />
-                    <label htmlFor="email" className>Your email</label>
+                    <label htmlFor="email" className>Email</label>
                   </div>
                 </div>
                 {/*Grid column*/}
@@ -47,7 +46,7 @@ function Contact() {
                 <div className="col-md-12">
                   <div className="md-form mb-0">
                     <input type="text" id="subject" name="subject" className="form-control" />
-                    <label htmlFor="subject" className>Subject</label>
+                    <label htmlFor="subject" className>Coaching ? Questions ?</label>
                   </div>
                 </div>
               </div>
@@ -58,14 +57,14 @@ function Contact() {
                 <div className="col-md-12">
                   <div className="md-form">
                     <textarea type="text" id="message" name="message" rows={2} className="form-control md-textarea" defaultValue={""} />
-                    <label htmlFor="message">Your message</label>
+                    <label htmlFor="message">Message</label>
                   </div>
                 </div>
               </div>
               {/*Grid row*/}
             </form>
             <div className="text-center text-md-left">
-              <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+              <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
             </div>
             <div className="status" />
           </div>
@@ -75,7 +74,7 @@ function Contact() {
             <ul className="list-unstyled mb-0">
             <i className="fab fa-map-marker-alt fa-3x white-text mr-4">  <FontAwesomeIcon icon={faMapMarkerAlt}/></i>
               
-                <p>San Francisco, CA 94126, USA</p>
+                <p>Bruxelles, CA 1050, Belgium</p>
         
               <i className="fab fa-phone fa-3x white-text mr-4">  <FontAwesomeIcon icon={faPhone}/></i>
              

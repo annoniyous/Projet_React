@@ -23,28 +23,28 @@ function Footer() {
                   {/* Grid column */}
                   <div className="col-md-2 mb-3">
                     <h6 className="text-uppercase font-weight-bold">
-                      <a href="#!">About us</a>
+                      <a href="#!">Qui sommes nous ?</a>
                     </h6>
                   </div>
                   {/* Grid column */}
                   {/* Grid column */}
                   <div className="col-md-2 mb-3">
                     <h6 className="text-uppercase font-weight-bold">
-                      <a href="#!">Products</a>
+                      <a href="#!">Coachings</a>
                     </h6>
                   </div>
                   {/* Grid column */}
                   {/* Grid column */}
                   <div className="col-md-2 mb-3">
                     <h6 className="text-uppercase font-weight-bold">
-                      <a href="#!">Awards</a>
+                      <a href="#!">SEO ?</a>
                     </h6>
                   </div>
                   {/* Grid column */}
                   {/* Grid column */}
                   <div className="col-md-2 mb-3">
                     <h6 className="text-uppercase font-weight-bold">
-                      <a href="#!">Help</a>
+                      <a href="#!">Aide</a>
                     </h6>
                   </div>
                   {/* Grid column */}
@@ -62,11 +62,7 @@ function Footer() {
                 <div className="row d-flex text-center justify-content-center mb-md-0 mb-4">
                   {/* Grid column */}
                   <div className="col-md-8 col-12 mt-5">
-                    <p style={{lineHeight: '1.7rem'}}>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                      accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                      explicabo.
-                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                    <p style={{lineHeight: '1.7rem'}}>L'optimisation pour les moteurs de recherche (SEO pour Search Engine Optimization en anglais), appelé également référencement naturel ou organique en français, inclut l'ensemble des techniques qui visent à améliorer le positionnement d'une page, d'un site ou d'une application web dans la page des résultats de recherche</p>
                   </div>
                   {/* Grid column */}
                 </div>
